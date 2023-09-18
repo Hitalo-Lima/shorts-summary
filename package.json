@@ -3,7 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
+    "start": "node server/index.js",
     "web": "vite",
     "server": "node --watch --no-warnings server/index"
   },
