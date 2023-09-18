@@ -6,8 +6,6 @@ import { download } from "./download.js"
 import { transcribe } from "./transcribe.js"
 import { summarize } from "./summarize.js"
 
-const port = process.port.env.PORT || 3333
-
 const app = express()
 
 app.use(express.json())
@@ -39,4 +37,4 @@ app.post("/summary", async (request, response) => {
   }
 })
 
-app.listen(port, () => console.log("Servidor rodando na porta 3333"))
+app.listen(3333, () => console.log("Servidor rodando na porta 3333"))

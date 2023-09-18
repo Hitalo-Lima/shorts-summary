@@ -40,7 +40,35 @@ o resumo dessa mesma transcrição utilizando um modelo de inteligência artific
 
 Cole um link de um vídeo short do youtube e aguarde a transcrição e resumo
 
-- [Acesse o projeto finalizado, online](https://hitalo-lima.github.io/shorts-summary)
+## 💾 Instalação
+
+Siga os passos a seguir para executar o projeto na sua máquina
+
+- Clone o repositório
+
+```
+git clone https://github.com/Hitalo-Lima/shorts-summary.git
+```
+
+- Instale as dependências do projeto
+
+```
+npm install
+```
+
+- Acesse o diretório do projeto
+
+```
+cd boarding-pass
+```
+
+- Rode o app
+
+```
+npm run server
+npm run web
+
+```
 
 ## 📝 Licença
 

@@ -7,7 +7,6 @@
     "node": "18.x"
   },
   "scripts": {
-    "start": "node server/index.js",
     "web": "vite",
     "server": "node --watch --no-warnings server/index"
   },
